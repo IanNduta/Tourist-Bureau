@@ -16,3 +16,7 @@ const nameOfActivity = document.getElementById("nameOfActivity");
 const activityDescription = document.getElementById("activityDescription");
 const activityLocation = document.getElementById("activityLocation");
 const priceOfActivity = document.getElementById("priceOfActivity");
+
+window.onload = function(){
+    
+}
