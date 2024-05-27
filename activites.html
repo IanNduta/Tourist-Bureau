@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col">
                     <div class="mt-1" >
-                        <label id="activitylCategory">Select your activity category</label>
+                        <h5>Select your activity category</h5>
                         <select id="activitylCategory" class="form-select" name="communityActivities">
                             <option selected value="">Select one</option>
                         </select>
@@ -65,7 +65,7 @@
 
             <div class="row mt-5">
                 <div class="col">
-                    <label id="activityNames">select your activity of choice</label>
+                    <h5>Select your activity of choice</h5>
                     <select id="activityNames" class="form-select" name="communityActivities">
                         <option selected value="">Select one</option>
                     </select>
@@ -75,19 +75,18 @@
             <div class="row mt-5">
                 <div class="col">
                     <div class="mt-5 text-center">
-                        <label id="numOfTickets">Number of Tickets</label>
+                        <label for="numOfTickets">Number of Tickets</label>
                         <input id="numOfTickets" type="text" value="1"class="form-control">
                     </div>
                     <div class="mt-5 text-center">
-                        <label id="cardNumber">Enter Creadit card number</label>
+                        <label for="cardNumber">Enter Creadit card number</label>
                         <input id="cardNumber" type="text" value="Enter your 16 digit number"class="form-control">
                     </div>
                     <div class="mt-5 text-center">
-                        <label id="emailAddress">Enter Email Address</label>
+                        <label for="emailAddress">Enter Email Address</label>
                         <input id="emailAddress" type="text" value="Enter your email address"class="form-control">
                     </div>
                     <div class="mt-5 text-center">
-                        <label id="submitBtn">Purchase</label>
                         <input id="submitBtn" type="button" value="Submit"class="form-control">
                     </div>
                     <div class="mt-5 text-center">
@@ -99,9 +98,15 @@
             <div class="row mt-5">
                 <div class="col">
                     <div id="formstuff">
-                        <h6>Your ID:</h6>
-                        <span id="customerId"></span>
-                        <h6>Your Name:</h6>
+                        <h6>Thank you for your Purchase:</h6>
+                        <span id="userReceipt"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col">
+                    <div id="formstuff" id="clear">
                         <span id="nameOfActivity"></span>
                         <h6>Description of activity:</h6>
                         <span id="activityDescription"></span>
